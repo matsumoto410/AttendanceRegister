@@ -11,7 +11,6 @@ callArgs = "[]";
 
 nebPay.call(to, value, callFunction, callArgs, { //使用nebpay的call接口去调用合约,
 listener: function(resp){
-console.log(11);
 console.log(JSON.stringify(resp));
 }
 });
